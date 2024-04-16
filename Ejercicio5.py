@@ -1,0 +1,13 @@
+'''Ejercicio 5: Suma de Números Pares. Escribe un programa que calcule la suma de todos los números pares del 1 al 100.'''
+
+def numeros_pares(numero):
+  contador = 0
+  for numeros in numero:
+    if numeros % 2 == 0:
+      contador += 1
+  return contador
+numero = range(101)
+total_pares = numeros_pares(numero)
+print('El total de números pares entre el 0 y el 100 son: ', total_pares)
+
+
