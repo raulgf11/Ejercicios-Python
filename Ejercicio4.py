@@ -8,4 +8,4 @@ def contador_vocales(palabra):
   return contador
 palabra = input('Ingrese una palabra: ')
 total_vocales = contador_vocales(palabra)
-print('Hay',total_vocales,'vocales')
+print(f'Hay {total_vocales} vocales')
